@@ -1,0 +1,22 @@
+.ZipCode {
+  display: flex;
+  flex-direction: column;
+}
+
+.ZipCode * + * {
+  margin-top: 0.5rem;
+}
+
+.ZipCode-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ZipCode-input--error {
+  border-color: red;
+}
